@@ -180,3 +180,17 @@ ul li a:hover {
 #social-links a:hover{
     background: var(--highlight-color);
 }
+
+/* media queries*/
+
+@media (min-width: 700px) { 
+    :root {
+        --br-url: url(./Assets/bg.desktop.jpg)
+    }
+
+    .light {
+        --bg-light: url(./Assets/bg.desktop.light)
+
+    }
+
+}
